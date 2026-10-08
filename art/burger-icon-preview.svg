@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <!-- Preview of the PCB-art logo. Tones are real PCB materials:
+       matte black mask #141414, mask over copper #3b3631,
+       bare FR4 (mask opened, no copper) #c9b37a, ENIG gold (exposed copper) #d9a630,
+       white silkscreen #f2f2f2. -->
+  <rect width="200" height="200" rx="16" fill="#141414"/>
+
+  <!-- bottom bun: bare FR4 -->
+  <path d="M42 140 H158 Q164 140 164 146 V150 Q164 160 152 160 H48 Q36 160 36 150 V146 Q36 140 42 140 Z" fill="#c9b37a"/>
+  <!-- gold drip running down the bottom bun -->
+  <path d="M116 139 Q116 150 120 153 Q124 150 124 139 Z" fill="#d9a630"/>
+
+  <!-- patty 2: mask over copper, silk outline and grill dots -->
+  <rect x="36" y="122" width="128" height="20" rx="9" fill="#3b3631" stroke="#f2f2f2" stroke-width="1.5"/>
+  <g fill="#f2f2f2">
+    <circle cx="60" cy="133" r="1.1"/><circle cx="85" cy="136" r="1.1"/><circle cx="112" cy="132" r="1.1"/>
+    <circle cx="136" cy="135" r="1.1"/><circle cx="151" cy="130" r="1.1"/>
+  </g>
+  <!-- sauce: silkscreen drips over patty 2 -->
+  <path d="M44 120 H156 Q158 120 156 124 L150 124 Q148 124 148 128 Q148 133 145 133 Q142 133 142 128 Q142 124 138 124 L110 124 Q107 124 107 130 Q107 136 103.5 136 Q100 136 100 130 Q100 124 96 124 L70 124 Q67 124 67 127 Q67 131 64.5 131 Q62 131 62 127 Q62 124 58 124 L44 124 Q42 124 44 120 Z" fill="#f2f2f2"/>
+
+  <!-- patty 1 -->
+  <rect x="38" y="102" width="124" height="20" rx="9" fill="#3b3631" stroke="#f2f2f2" stroke-width="1.5"/>
+  <g fill="#f2f2f2">
+    <circle cx="56" cy="114" r="1.1"/><circle cx="81" cy="117" r="1.1"/><circle cx="131" cy="116" r="1.1"/>
+    <circle cx="148" cy="112" r="1.1"/>
+  </g>
+  <!-- cheese: ENIG gold, corners drooping and drips oozing over patty 1 -->
+  <g fill="#d9a630">
+    <path d="M32 97 H168 L172 101 Q170 104 166 104 L160 104 Q157 104 157 109 Q157 116 153 116 Q149 116 149 109 Q149 104 145 104 L118 104 Q115 104 115 112 Q115 121 111 121 Q107 121 107 112 Q107 104 103 104 L76 104 Q73 104 73 108 Q73 113 70 113 Q67 113 67 108 Q67 104 63 104 L36 104 Q30 104 28 101 Z"/>
+    <path d="M33 97 L23 113 L40 104 Z"/>
+    <path d="M167 97 L177 113 L160 104 Z"/>
+  </g>
+
+  <!-- lettuce: mask over copper with a silkscreen ruffle -->
+  <path d="M30 90 L170 90 Q168 100 162 96 Q156 102 150 96 Q144 102 138 96 Q132 102 126 96 Q120 102 114 96 Q108 102 102 96 Q96 102 90 96 Q84 102 78 96 Q72 102 66 96 Q60 102 54 96 Q48 102 42 96 Q36 102 30 90 Z"
+        fill="#3b3631" stroke="#f2f2f2" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- top bun: bare FR4 with silkscreen sesame seeds -->
+  <path d="M36 92 Q36 44 100 40 Q164 44 164 92 Q164 96 160 96 H40 Q36 96 36 92 Z" fill="#c9b37a"/>
+  <g fill="#f2f2f2">
+    <ellipse cx="78" cy="60" rx="3.2" ry="1.8" transform="rotate(-25 78 60)"/>
+    <ellipse cx="100" cy="52" rx="3.2" ry="1.8"/>
+    <ellipse cx="122" cy="60" rx="3.2" ry="1.8" transform="rotate(25 122 60)"/>
+    <ellipse cx="90" cy="75" rx="3.2" ry="1.8" transform="rotate(-10 90 75)"/>
+    <ellipse cx="112" cy="75" rx="3.2" ry="1.8" transform="rotate(10 112 75)"/>
+    <ellipse cx="64" cy="79" rx="3.2" ry="1.8" transform="rotate(-30 64 79)"/>
+    <ellipse cx="136" cy="79" rx="3.2" ry="1.8" transform="rotate(30 136 79)"/>
+  </g>
+
+  <text x="100" y="184" text-anchor="middle" fill="#f2f2f2" font-family="Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5">LITTLE STACK · BIG SDR</text>
+</svg>

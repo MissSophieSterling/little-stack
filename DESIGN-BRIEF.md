@@ -91,6 +91,12 @@ Standard Pi HATs fit at any level, because every board passes the 40-pin header 
 - Uses: tune modules to adjacent bands for wider total bandwidth, scan N bands in parallel (N times the scan speed), and run coherent arrays (direction finding, beamforming, MIMO).
 - Limit: the brain board's link caps the total stream to the host (PCIe about 400 MB/s, GbE about 110 MB/s). Bigger stacks rely on FPGA decimation and FFT to cut the data down.
 
+## Look and feel
+- The board should look good, not just work: parts aligned to a grid, passives in matching orientations, symmetric placement where the circuit allows, even via stitching and via fences in clean rows, smooth traces (arcs or 45° bends), one consistent silkscreen font.
+- Suggested finish: matte black soldermask with gold (ENIG) pads.
+- Optional: a different soldermask colour for each board in the stack, like the layers of a burger.
+- Logo: a small stacked-burger icon on every board (buns, two patties, cheese oozing, sauce dripping, lettuce). It is PCB art, coloured with the board's own materials: white silkscreen, exposed gold copper, bare board and mask over copper. Preview: [art/burger-icon-preview.svg](art/burger-icon-preview.svg).
+
 ## Software
 - SoapySDR driver, GNU Radio blocks, SDR++ and SDRangel support, libiio (Linux already has an AD9361 driver). Open FPGA reference design.
 - For learning: a documented example for each DSP block (filters, FFT, demodulators), on both the FPGA and the CPU.

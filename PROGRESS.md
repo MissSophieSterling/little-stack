@@ -11,4 +11,5 @@
 - Nothing yet.
 
 ## Next
-- Phase 0 in Flux: transceiver chip (AD9361 / AD9363 / LMS7002M), FPGA, stack connector pinout, board outline, power budget.
+- When placement starts, give Flux the look-and-feel rules and the burger logo.
+- Phase 0 in Flux (running): transceiver chip (AD9361 / AD9363 / LMS7002M), FPGA, stack connector pinout, board outline, power budget.

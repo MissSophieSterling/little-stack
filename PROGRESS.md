@@ -1,7 +1,8 @@
 # Progress
 
 ## Done
-- 2026-10-08: Design brief v0.2 with first decisions. Public repo created.
+- 2026-10-08: Design brief v0.2 with first decisions. Public repo created. Burger logo v2.
+- 2026-10-08: Flux Phase 0 assessment done: https://www.flux.ai/zkiitszo/little-stack-radio-module~e7/files/phase-0-architecture-assessment~vf
 
 ## Where
 - Spec: [DESIGN-BRIEF.md](DESIGN-BRIEF.md)
@@ -12,4 +13,4 @@
 
 ## Next
 - When placement starts, give Flux the look-and-feel rules and the burger logo.
-- Phase 0 in Flux (running): transceiver chip (AD9361 / AD9363 / LMS7002M), FPGA, stack connector pinout, board outline, power budget.
+- Decide: top frequency (3.8 vs 6 GHz), TX power, price target, streaming modes, board outline. Then FPGA synthesis check, quotes, packing study, schematic.

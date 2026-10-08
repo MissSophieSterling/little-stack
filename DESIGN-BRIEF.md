@@ -31,7 +31,7 @@ An open-source SDR, learning tool and development platform. It starts from HackR
 [ Brain board (optional) ]  Compute Module 5, Ethernet, USB, power
 ```
 
-Standard Pi HATs fit at any level, because every board passes the 40-pin header through.
+Standard Pi HATs go on top of the stack. The 40-pin header passes through every board, but a HAT doesn't carry the stack connector, so a HAT placed between radio modules breaks the stack bus unless a bridge board is used.
 
 ### Mechanical
 - Every board uses the Raspberry Pi mounting-hole pattern (58 × 49 mm, M2.5) and puts the 40-pin header in the Pi position, so standard HATs stack on it.

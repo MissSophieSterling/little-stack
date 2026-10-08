@@ -1,5 +1,7 @@
 # Little Stack — Design Brief (draft v0.2)
 
+*Little stack. Big SDR.*
+
 ## Goal
 
 An open-source SDR, learning tool and development platform. It starts from HackRF One / HackRF Pro, fixes their weak points, and adds stacking, Raspberry Pi HAT compatibility and standalone (PortaPack-style) use.

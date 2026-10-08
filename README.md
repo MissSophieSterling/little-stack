@@ -1,5 +1,7 @@
 # Little Stack
 
+**Little stack. Big SDR.**
+
 An open-source, stackable software-defined radio: a full-duplex SDR, learning tool and development platform.
 
 It starts from the HackRF One and HackRF Pro and fixes their limits: 12-bit full duplex, USB 3.0 and Ethernet, protected RF chains, a proper clock, and built-in antenna switching. Every board uses the Raspberry Pi footprint, so radio modules, a GPS board, an HF module and a new PortaPack-style UI board stack together with standard Pi HATs.

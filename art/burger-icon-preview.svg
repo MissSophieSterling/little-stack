@@ -1,52 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
-  <!-- Preview of the PCB-art logo. Tones are real PCB materials:
+  <!-- Little Stack logo preview: NYC double smash burger, drawn only in real PCB materials:
        matte black mask #141414, mask over copper #3b3631,
        bare FR4 (mask opened, no copper) #c9b37a, ENIG gold (exposed copper) #d9a630,
        white silkscreen #f2f2f2. -->
   <rect width="200" height="200" rx="16" fill="#141414"/>
 
   <!-- bottom bun: bare FR4 -->
-  <path d="M42 140 H158 Q164 140 164 146 V150 Q164 160 152 160 H48 Q36 160 36 150 V146 Q36 140 42 140 Z" fill="#c9b37a"/>
-  <!-- gold drip running down the bottom bun -->
-  <path d="M116 139 Q116 150 120 153 Q124 150 124 139 Z" fill="#d9a630"/>
-
-  <!-- patty 2: mask over copper, silk outline and grill dots -->
-  <rect x="36" y="122" width="128" height="20" rx="9" fill="#3b3631" stroke="#f2f2f2" stroke-width="1.5"/>
+  <path d="M40 148 H160 Q166 148 166 154 V158 Q166 168 154 168 H46 Q34 168 34 158 V154 Q34 148 40 148 Z" fill="#c9b37a"/>
+  <!-- special sauce dripping onto the bottom bun: silkscreen -->
   <g fill="#f2f2f2">
-    <circle cx="60" cy="133" r="1.1"/><circle cx="85" cy="136" r="1.1"/><circle cx="112" cy="132" r="1.1"/>
-    <circle cx="136" cy="135" r="1.1"/><circle cx="151" cy="130" r="1.1"/>
+    <path d="M58 145 Q58 155 61.5 157 Q65 155 65 145 Z"/>
+    <path d="M127 145 Q127 159 131 161 Q135 159 135 145 Z"/>
+    <path d="M100 145 Q100 151 102.5 152.5 Q105 151 105 145 Z"/>
   </g>
-  <!-- sauce: silkscreen drips over patty 2 -->
-  <path d="M44 120 H156 Q158 120 156 124 L150 124 Q148 124 148 128 Q148 133 145 133 Q142 133 142 128 Q142 124 138 124 L110 124 Q107 124 107 130 Q107 136 103.5 136 Q100 136 100 130 Q100 124 96 124 L70 124 Q67 124 67 127 Q67 131 64.5 131 Q62 131 62 127 Q62 124 58 124 L44 124 Q42 124 44 120 Z" fill="#f2f2f2"/>
+
+  <!-- patty 2: smashed, lacy crisp edge -->
+  <g transform="translate(0 22)">
+    <path d="M40 105 L48 103 L56 105 L64 102 L72 104 L80 102 L90 104 L100 102 L110 104 L120 102 L130 104 L140 102 L150 104 L158 103 L164 106 L167 111 L165 116 L167 120 L160 123 L150 121 L140 124 L130 122 L120 124 L110 122 L100 124 L90 122 L80 124 L70 122 L60 124 L50 122 L40 123 L34 119 L35 114 L33 109 Z"
+          fill="#3b3631" stroke="#f2f2f2" stroke-width="1.4" stroke-linejoin="round"/>
+    <g fill="#f2f2f2"><circle cx="58" cy="114" r="1.1"/><circle cx="84" cy="117" r="1.1"/><circle cx="133" cy="116" r="1.1"/><circle cx="150" cy="112" r="1.1"/></g>
+  </g>
+  <!-- cheese 2: ENIG gold draped over patty 2 -->
+  <path d="M30 122 H170 L174 127 Q172 129 168 129 L156 129 Q153 129 153 135 Q153 141 149.5 141 Q146 141 146 135 Q146 129 142 129 L96 129 Q93 129 93 136 Q93 144 89.5 144 Q86 144 86 136 Q86 129 82 129 L58 129 Q55 129 55 133 Q55 138 52 138 Q49 138 49 133 Q49 129 45 129 L32 129 Q27 129 26 126 Z" fill="#d9a630"/>
 
   <!-- patty 1 -->
-  <rect x="38" y="102" width="124" height="20" rx="9" fill="#3b3631" stroke="#f2f2f2" stroke-width="1.5"/>
-  <g fill="#f2f2f2">
-    <circle cx="56" cy="114" r="1.1"/><circle cx="81" cy="117" r="1.1"/><circle cx="131" cy="116" r="1.1"/>
-    <circle cx="148" cy="112" r="1.1"/>
-  </g>
-  <!-- cheese: ENIG gold, corners drooping and drips oozing over patty 1 -->
+  <path d="M40 105 L48 103 L56 105 L64 102 L72 104 L80 102 L90 104 L100 102 L110 104 L120 102 L130 104 L140 102 L150 104 L158 103 L164 106 L167 111 L165 116 L167 120 L160 123 L150 121 L140 124 L130 122 L120 124 L110 122 L100 124 L90 122 L80 124 L70 122 L60 124 L50 122 L40 123 L34 119 L35 114 L33 109 Z"
+        fill="#3b3631" stroke="#f2f2f2" stroke-width="1.4" stroke-linejoin="round"/>
+  <g fill="#f2f2f2"><circle cx="62" cy="113" r="1.1"/><circle cx="96" cy="116" r="1.1"/><circle cx="124" cy="112" r="1.1"/></g>
+  <!-- cheese 1: corners drooping, drips oozing over patty 1 -->
   <g fill="#d9a630">
     <path d="M32 97 H168 L172 101 Q170 104 166 104 L160 104 Q157 104 157 109 Q157 116 153 116 Q149 116 149 109 Q149 104 145 104 L118 104 Q115 104 115 112 Q115 121 111 121 Q107 121 107 112 Q107 104 103 104 L76 104 Q73 104 73 108 Q73 113 70 113 Q67 113 67 108 Q67 104 63 104 L36 104 Q30 104 28 101 Z"/>
-    <path d="M33 97 L23 113 L40 104 Z"/>
-    <path d="M167 97 L177 113 L160 104 Z"/>
+    <path d="M33 97 L22 114 L40 104 Z"/>
+    <path d="M167 97 L178 114 L160 104 Z"/>
   </g>
 
   <!-- lettuce: mask over copper with a silkscreen ruffle -->
-  <path d="M30 90 L170 90 Q168 100 162 96 Q156 102 150 96 Q144 102 138 96 Q132 102 126 96 Q120 102 114 96 Q108 102 102 96 Q96 102 90 96 Q84 102 78 96 Q72 102 66 96 Q60 102 54 96 Q48 102 42 96 Q36 102 30 90 Z"
-        fill="#3b3631" stroke="#f2f2f2" stroke-width="1.6" stroke-linejoin="round"/>
-
-  <!-- top bun: bare FR4 with silkscreen sesame seeds -->
-  <path d="M36 92 Q36 44 100 40 Q164 44 164 92 Q164 96 160 96 H40 Q36 96 36 92 Z" fill="#c9b37a"/>
-  <g fill="#f2f2f2">
-    <ellipse cx="78" cy="60" rx="3.2" ry="1.8" transform="rotate(-25 78 60)"/>
-    <ellipse cx="100" cy="52" rx="3.2" ry="1.8"/>
-    <ellipse cx="122" cy="60" rx="3.2" ry="1.8" transform="rotate(25 122 60)"/>
-    <ellipse cx="90" cy="75" rx="3.2" ry="1.8" transform="rotate(-10 90 75)"/>
-    <ellipse cx="112" cy="75" rx="3.2" ry="1.8" transform="rotate(10 112 75)"/>
-    <ellipse cx="64" cy="79" rx="3.2" ry="1.8" transform="rotate(-30 64 79)"/>
-    <ellipse cx="136" cy="79" rx="3.2" ry="1.8" transform="rotate(30 136 79)"/>
+  <path d="M30 90 L170 90 Q169 104 162 99 Q156 107 150 99 Q144 107 138 99 Q132 107 126 99 Q120 107 114 99 Q108 107 102 99 Q96 107 90 99 Q84 107 78 99 Q72 107 66 99 Q60 107 54 99 Q48 107 42 99 Q36 107 30 90 Z"
+        fill="#3b3631" stroke="#f2f2f2" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- onion ring and pickle slices peeking out -->
+  <ellipse cx="100" cy="100" rx="15" ry="2.8" fill="none" stroke="#f2f2f2" stroke-width="1.2"/>
+  <g fill="#3b3631" stroke="#f2f2f2" stroke-width="1.2">
+    <ellipse cx="42" cy="100" rx="10" ry="3.4"/>
+    <ellipse cx="158" cy="100" rx="10" ry="3.4"/>
   </g>
+  <g fill="#f2f2f2"><circle cx="39" cy="100" r="0.8"/><circle cx="45" cy="100" r="0.8"/><circle cx="155" cy="100" r="0.8"/><circle cx="161" cy="100" r="0.8"/></g>
 
-  <text x="100" y="184" text-anchor="middle" fill="#f2f2f2" font-family="Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5">LITTLE STACK · BIG SDR</text>
+  <!-- top bun: tall glossy brioche dome in bare FR4, silkscreen shine -->
+  <path d="M34 92 Q34 34 100 30 Q166 34 166 92 Q166 97 161 97 H39 Q34 97 34 92 Z" fill="#c9b37a"/>
+  <path d="M56 62 Q66 44 90 38" fill="none" stroke="#f2f2f2" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="99" cy="37" r="1.8" fill="#f2f2f2"/>
+
+  <text x="100" y="188" text-anchor="middle" fill="#f2f2f2" font-family="Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5">LITTLE STACK · BIG SDR</text>
 </svg>

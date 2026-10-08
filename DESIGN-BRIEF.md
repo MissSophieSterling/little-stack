@@ -95,7 +95,7 @@ Standard Pi HATs fit at any level, because every board passes the 40-pin header 
 - The board should look good, not just work: parts aligned to a grid, passives in matching orientations, symmetric placement where the circuit allows, even via stitching and via fences in clean rows, smooth traces (arcs or 45° bends), one consistent silkscreen font.
 - Suggested finish: matte black soldermask with gold (ENIG) pads.
 - Optional: a different soldermask colour for each board in the stack, like the layers of a burger.
-- Logo: a small stacked-burger icon on every board (buns, two patties, cheese oozing, sauce dripping, lettuce). It is PCB art, coloured with the board's own materials: white silkscreen, exposed gold copper, bare board and mask over copper. Preview: [art/burger-icon-preview.svg](art/burger-icon-preview.svg).
+- Logo: a small stacked-burger icon on every board, in the style of an NYC double smash burger: glossy brioche bun, two smashed patties with crispy edges, American cheese draping, pickles, onion and special sauce dripping. It is PCB art, coloured with the board's own materials: white silkscreen, exposed gold copper, bare board and mask over copper. Preview: [art/burger-icon-preview.svg](art/burger-icon-preview.svg).
 
 ## Software
 - SoapySDR driver, GNU Radio blocks, SDR++ and SDRangel support, libiio (Linux already has an AD9361 driver). Open FPGA reference design.
